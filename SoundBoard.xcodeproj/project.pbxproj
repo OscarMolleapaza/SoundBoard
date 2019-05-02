@@ -13,6 +13,7 @@
 		6893E84E227B766B00DE6B99 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6893E84C227B766B00DE6B99 /* SoundBoard.xcdatamodeld */; };
 		6893E850227B766D00DE6B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6893E84F227B766D00DE6B99 /* Assets.xcassets */; };
 		6893E853227B766D00DE6B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6893E851227B766D00DE6B99 /* LaunchScreen.storyboard */; };
+		6893E85B227B7C7200DE6B99 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893E85A227B7C7200DE6B99 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6893E84F227B766D00DE6B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6893E852227B766D00DE6B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6893E854227B766D00DE6B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6893E85A227B7C7200DE6B99 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6893E851227B766D00DE6B99 /* LaunchScreen.storyboard */,
 				6893E854227B766D00DE6B99 /* Info.plist */,
 				6893E84C227B766B00DE6B99 /* SoundBoard.xcdatamodeld */,
+				6893E85A227B7C7200DE6B99 /* SoundViewController.swift */,
 			);
 			path = SoundBoard;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6893E85B227B7C7200DE6B99 /* SoundViewController.swift in Sources */,
 				6893E84E227B766B00DE6B99 /* SoundBoard.xcdatamodeld in Sources */,
 				6893E848227B766B00DE6B99 /* ViewController.swift in Sources */,
 				6893E846227B766B00DE6B99 /* AppDelegate.swift in Sources */,
@@ -289,11 +293,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SHG964HMAY;
 				INFOPLIST_FILE = SoundBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoardd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,11 +312,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SHG964HMAY;
 				INFOPLIST_FILE = SoundBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoardd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
